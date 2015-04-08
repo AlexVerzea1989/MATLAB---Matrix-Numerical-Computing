@@ -1,0 +1,97 @@
+These are the results. Do not execute this file.
+I handed in the written part of the assignment at McConnel Eng. 302.
+
+>> script
+1. For m = 20 and n = 10
+Classic Gram Schmidt
+
+norm(A-Q1*R)/norm(A)
+ans =
+
+   1.1102e-16
+
+
+norm((Q1^T)*Q1-I)
+ans =
+
+    0.0046
+
+
+ans =
+
+    1.0023
+
+
+Modified Gram Schmidt
+
+norm(A-Q1*R)/norm(A)
+ans =
+
+   1.1102e-16
+
+
+norm((Q1^T)*Q1-I)
+ans =
+
+    0.0046
+
+
+qr(A)
+
+Note that QR Factorization is implemented a bit differently in MATLAB. [Q,R] = qr(A), where A is m-by-n, produces an m-by-n upper triangular matrix R and an m-by-m unitary matrix Q so that A = Q*R.
+
+norm(A-Q1*R)/norm(A)
+ans =
+
+   5.2685e-16
+
+
+norm((Q1^T)*Q1-I)
+ans =
+
+   9.8076e-16
+
+
+2. For m = 30 and n = 20
+Classic Gram Schmidt
+
+norm(A-Q1*R)/norm(A)
+ans =
+
+   1.4850e-16
+
+
+norm((Q1^T)*Q1-I)
+ans =
+
+    8.8429
+
+
+Modified Gram Schmidt
+
+norm(A-Q1*R)/norm(A)
+ans =
+
+   1.4850e-16
+
+
+norm((Q1^T)*Q1-I)
+ans =
+
+    8.8429
+
+
+qr(A)
+
+Note that QR Factorization is implemented a bit differently in MATLAB. [Q,R] = qr(A), where A is m-by-n, produces an m-by-n upper triangular matrix R and an m-by-m unitary matrix Q so that A = Q*R.
+
+norm(A-Q1*R)/norm(A)
+ans =
+
+   3.3624e-16
+
+
+norm((Q1^T)*Q1-I)
+ans =
+
+   1.3947e-15

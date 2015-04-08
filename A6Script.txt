@@ -1,0 +1,63 @@
+i.
+After n = 70, we get this matrix. Eigenvalues of A are on the diagonal.
+Final matrix is diagonal since original matrix was symmetric. 
+A =
+
+   10.0000   -0.0000   -0.0000   -0.0000
+   -0.0000    5.0000   -0.0000   -0.0000
+    0.0000   -0.0000    1.0000    0.0000
+   -0.0000    0.0000    0.0000    2.0000
+
+ii.
+After n = 12, we get this matrix. Eigenvalues of A are on the diagonal.
+Final matrix is diagonal since original matrix was symmetric.
+A =
+
+   15.0000    0.0000   -0.0000   -0.0000
+    0.0000    5.0000   -0.0000   -0.0000
+    0.0000    0.0000    5.0000    0.0000
+    0.0000    0.0000    0.0000   -1.0000
+
+iii.
+After n = 14, we get this matrix. Eigenvalues of A are on the diagonal.
+A =
+
+    3.0000   25.9495  100.6483
+   -0.0000    2.0000   -2.3534
+   -0.0000    0.0000    1.0000
+
+iv.
+After n = 31 000, we get this matrix. Eigenvalues of A are on the diagonal.
+Convergence is extremely slow.
+A =
+
+    5.2362   -8.5407   -1.9755   -0.0873
+    0.0000    5.2359    3.9096   -2.9095
+         0         0    0.7640   -1.1813
+         0         0    0.0000    0.7639
+
+v.
+After n = 15, we get this matrix. The real part of the eigenvalues of A 
+are on the diagonal. Matrix is not upper triangular. However, the 2 1's
+on the diagonal and the 5 and -5 above and below them might mean that the
+complex eigenvalues are 1 + 5i and 1 - 5i.
+A =
+
+   12.0000   -0.0000    0.0000   -0.0000
+   -0.0000    1.0000   -5.0000    0.0000
+    0.0000    5.0000    1.0000    0.0000
+   -0.0000   -0.0000   -0.0000    2.0000
+
+vi.
+After n = 3 000 000, we get this matrix. There is still no convergence.
+We see that four eigenvalues of A are -1, -1, -1 and 1, because we see 
+-1, -1.0474, -1.5257 and 0.7345 on the diagonal. The complex eigenvalues 
+are obviously not computed correctly.
+A =
+
+   -1.5257    2.4922   38.4543   12.9500  -36.9804   -1.3182
+   -0.1238    0.7345    6.8048    0.7658   -4.6738   -0.4936
+    0.0007    0.1897   -1.4265   -0.0673    1.4146    0.2107
+    0.0101   -0.0293   -0.7773   -1.0474    0.7184    1.4390
+    0.0460   -0.1334   -3.5343   -0.2155    2.2651    0.3214
+   -0.0000    0.0000    0.0000    0.0000   -0.0000   -1.0000
